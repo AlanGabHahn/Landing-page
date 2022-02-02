@@ -1,0 +1,139 @@
+body{
+    margin: 0px;
+    border: 0px;
+    background-color: #000;
+}
+header{
+    display: flex;
+    justify-content: center;
+    font-family: 'Fredericka the Great';
+    font-size: 18px;
+    background-color: #000;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+nav ul, nav li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul{
+    display: flex;
+}
+nav a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+nav a:hover{
+    color: yellow;
+}
+#banner_top{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: rgb(255, 101, 0);
+    margin-top: 10px;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+.top_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.date{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+#banner{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    background-image: url('../image/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}
+.container_banner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.produto1{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    background-image: url('../image/produto.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 20px;
+}
+.text_info{
+    flex: 1;
+    display: flex;
+    flex-direction:column;
+    justify-content: baseline;
+    margin-top: 30px;
+    margin-left: 390px;
+}
+.text_info h1{
+    color: #fff;
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+    text-shadow: 0px 0px 10px #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text_info h2{
+    color: #fff;
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+    text-shadow: 0px 0px 10px #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text_info div{
+    font-size: 15px;
+    width: 100px;
+    margin:70px;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid rgb(255, 101, 0);
+    background-color: rgb(255, 101, 0);
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: 'Fredericka the Great';   
+}
+.text_info a{
+    text-decoration: none;
+    color: #fff;
+}
+.text_info a:hover{
+    color: yellow;
+}
+.produto2{
+    flex: 1;
+    height: 600px;
+    background-color: rgb(114, 110, 107);
+    margin: 20px;
+}
