@@ -1,6 +1,9 @@
 body{
     margin: 0px;
     border: 0px;
+    background-image: url('../image/banner.jpg');
+    background-position: center;
+    background-size: cover;
     /*background-color: #000;*/
 }
 header{
@@ -67,10 +70,7 @@ nav a:hover{
     display: flex;
     justify-content: center;
     margin-top: 10px;
-    background-image: url('../image/banner.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 1000px;
+    height: 600px;
 }
 .container_banner{
     display: flex;
@@ -93,7 +93,7 @@ nav a:hover{
     flex-direction:column;
     justify-content: baseline;
     margin-top: 30px;
-    margin-left: 390px;
+    margin-left: 550px;
 }
 .text_info h1{
     color: #fff;
@@ -115,7 +115,7 @@ nav a:hover{
 .text_info div{
     font-size: 15px;
     width: 100px;
-    margin:70px;
+    margin:90px;
     padding: 5px;
     text-align: center;
     border: 2px solid rgb(255, 101, 0);
@@ -177,4 +177,70 @@ nav a:hover{
 }
 .ing_info a:hover{
     color: yellow;
+}
+#banner_bottom{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+.container_bottom{
+    display: flex;
+    justify-content: center;
+    width: 1650px;
+    align-items: center;
+}
+.item_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(255, 101, 0);
+}
+.item_box a{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Fredericka the Great';
+   
+}
+.item_box i{
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.item_box a:hover{
+    color: yellow;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    font-family: 'Fredericka the Great';
+    font-size: 25px;
+    background-color: #000;
+    color: #fff;
+}
+.info_footer{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 1000px;
+    border-top: 2px solid #fff;
+}
+.desenv{
+    display: flex;
+    align-items: center;
+}
+.desenv a{
+    color: #fff;
+    text-decoration: none;
+}
+.desenv a:hover{
+    color: yellow;
+}
+.date_desenv{
+    display: flex;
+    align-items: center;
 }
